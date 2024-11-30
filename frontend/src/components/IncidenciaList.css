@@ -1,0 +1,46 @@
+.incidencia-list-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .incidencia-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .incidencia-table th,
+  .incidencia-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  .incidencia-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .incidencia-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .incidencia-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
